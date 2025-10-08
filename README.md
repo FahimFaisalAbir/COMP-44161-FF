@@ -68,8 +68,8 @@ This project predicts the assessed market value of properties using supervised m
 | Model | R² | RMSE | Relative to best |
 |-------|----|------|--------------|
 | base R LM model	| 0.003| 0 |
-| OLS LM model | 0.137 | 50,200 | 14 |
-| Linear Regression | 0.783 | 83 | |
+| OLS LM model | 0.137 | 3929 | 14 |
+| Linear Regression | 0.783 | 22958 | 83.8 |
 | Random Forest | 0.935 | 27394.84 | 100 |
 | XGBoost | 0.934 | 27375.93 | 99|
 
