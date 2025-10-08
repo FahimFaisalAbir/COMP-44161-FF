@@ -59,7 +59,7 @@ This project predicts the assessed market value of properties using supervised m
 
 ## 📊 Model Overview
 
-![Feature importance](images/xgb_feature_importance.png)
+![Feature importance](plot/xgb_feature_importance.png)
 
 ---
 
