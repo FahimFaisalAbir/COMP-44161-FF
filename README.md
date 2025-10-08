@@ -60,7 +60,7 @@ This project predicts the assessed market value of properties using supervised m
 ## 📊 Model Overview
 
 ![Feature importance](plot/xgb_feature_importance.png)
-![Ensemble (Decision tree, Random Forest, XGB average) Feature importance](plot/xgb_feature_importance.png)
+![Ensemble (Decision tree, Random Forest, XGB average) Feature importance](plot/ensemble_feature_importance.png)
 
 ---
 
