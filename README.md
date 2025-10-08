@@ -67,7 +67,7 @@ This project predicts the assessed market value of properties using supervised m
 ## Model Comparison Results
 
 | Model | R² | RMSE | Relative to baseline | Relative to Best|
-|-------|----|------|--------------|
+|-------|----|------|--------------|--------------|
 | base R LM model	| 0.0034 | 2767000| 0 % | 3.21 % |
 | OLS LM model | 0.137 | 3929 | 356.6 % | 14.66 %|
 | Linear Regression | 0.784 | 22958 | 2,513 % | 83.86 %|
