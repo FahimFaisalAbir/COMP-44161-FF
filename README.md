@@ -63,7 +63,7 @@ This project predicts the assessed market value of properties using supervised m
 
 ---
 
-## 🧮 Model Comparison Results
+## Model Comparison Results
 
 | Model | R² | RMSE | Relative to best |
 |-------|----|------|--------------|
