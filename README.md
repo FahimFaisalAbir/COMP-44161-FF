@@ -50,7 +50,7 @@ The model provides a **data-driven, consistent, and transparent framework** for 
 This project predicts the assessed market value of properties using supervised machine learning.
 
 ### Repository Structure
-- DataUtils - handle data loading, pre-processing , outlier detection, feature type detection and ETL pipeline
+- DataUtils - Handle data loading, pre-processing , outlier detection, feature type detection and ETL pipeline
 - Ensemble Model - Ensemble of tree based models
 - PropertyEvalModeling V3.ipynb - Perform exploratory data analysis, pre-processing and train suprevised models for property assesment, justification of modelling approach.
 
