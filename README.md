@@ -51,6 +51,31 @@ The model provides a **data-driven, consistent, and transparent framework** for 
 
 You will need to install several packages to run the existing code
 
+# 🏠 Automated Property Valuation Model (AVM)
+
+This project predicts the assessed market value of properties using supervised machine learning.
+
+---
+
+## 📊 Model Overview
+
+![Feature importance](images/xgb_feature_importance.png)
+
+---
+
+## 🧮 Model Comparison Results
+
+| Model | R² | RMSE | Relative to best |
+|-------|----|------|--------------|
+| base R LM model	| 0.003| 0 |
+| OLS LM model | 0.137 | 50,200 | 14 |
+| Linear Regression | 0.783 | 83 | |
+| Random Forest | 0.935 | 27394.84 | 100 |
+| XGBoost | 0.934 | 27375.93 | 99|
+
+The **XGBoost model** achieved the highest accuracy, effectively capturing complex relationships between property features and assessed value.
+
+
 ```python
 pip install pandas numpy scipy matplotlib seaborn scikit-learn matplotlib xgboost joblib typing-extensions notebook ipython tqdm
 
