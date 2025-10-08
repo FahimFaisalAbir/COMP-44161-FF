@@ -18,7 +18,7 @@ The model provides a **data-driven, consistent, and transparent framework** for 
 ### Data Preparation
 - Data were preprocessed by handling missing values, scaling numeric features, and encoding categorical variables.  
 - Both **Label Encoding** and **One-Hot Encoding** options were implemented for flexibility.  
-- Mode imputation was applied to ensure consistent treatment of missing information.
+- Median / Mode imputation was applied to ensure consistent treatment of missing information.
 
 ---
 
@@ -39,21 +39,26 @@ The model provides a **data-driven, consistent, and transparent framework** for 
 ---
 
 ### Impact
-- Enables **automated, data-driven valuation** of properties.  
-- Reduces manual workload for assessors and analysts.  
+- Enables **automated, fair, data-driven valuation** of properties.  
+- Reduces manual workload for assessors and analysts and help them to detect important features for operational decision making.  
 - Improves **consistency** and **fairness** in property value estimation across regions.  
 - Provides a foundation for future integration into municipal assessment or decision-support systems.
 
 ---
+# Automated Property Valuation Model (AVM)
+
+This project predicts the assessed market value of properties using supervised machine learning.
 
 ### Repository Structure
+** DataUtils - handle data loading, pre-processing , outlier detection, feature type detection and ETL pipeline
+** Ensemble Model - Ensemble of tree based models
+** PropertyEvalModeling V3.ipynb - Perform exploratory data analysis, pre-processing and train suprevised models for property assesment, justification of modelling approach.
+
 ## Environment
 
 You will need to install several packages to run the existing code
 
-# Automated Property Valuation Model (AVM)
 
-This project predicts the assessed market value of properties using supervised machine learning.
 
 ---
 
