@@ -3,7 +3,7 @@ __Opportunity No. 44161__
 # Automated Property Valuation Model 
 
 ### Overview
-An **Automated property Valuation Model (AVM)** was developed using **supervised machine learning** to predict the **assessed market value of residential properties** based on historical data.  
+An **Automated property Valuation Model (AVM)** was developed using **supervised machine learning** on property characteristic and historical assessment dataset to predict the **assessed market value of residential properties**.  
 The model provides a **data-driven fair, consistent, and transparent framework** for estimating property values based on a combination of physical, locational, and historical categorical features.
 
 ---
@@ -16,25 +16,25 @@ The model provides a **data-driven fair, consistent, and transparent framework**
 ---
 
 ### Data Preparation
-- Data were preprocessed by handling missing values, scaling numeric features, and encoding categorical variables.  
-- Both **Label Encoding** and **One-Hot Encoding** options were implemented for flexibility.  
+- Data were preprocessed by handling missing values, removing outliers, scaling numeric features, and encoding categorical variables.  
+- Both **Label Encoding** and **One-Hot Encoding** options were implemented and experimented for flexibility.  
 - Median / Mode imputation was applied to ensure consistent treatment of missing information.
 
 ---
 
 ### Machine Learning Approach
 - Multiple supervised learning algorithms were implemented, including:
-  - Linear Regression (Ridge, Lasso, ElasticNet)
+  - Linear Regression (Ridge, Lasso and ElasticNet)
   - Decision Tree Regressor
   - Random Forest Regressor
   - XGBoost Regressor
-- Each model was evaluated using **R²** and **RMSE** metrics with optional **Grid Search** and **Randomized Search** for hyperparameter optimization.
+- Each model was evaluated using **R²** and **RMSE** metrics with **Grid Search** and **Randomized Search** for hyperparameter optimization to tailor the model for the provided dataset.
 
 ---
 
 ### Results
-- The **XGBoost model** achieved the highest performance, demonstrating strong predictive accuracy and robustness across diverse property types.  
-- The model effectively captured non-linear relationships between property characteristics and assessed values.
+- The **XGBoost model and Random Forest** achieved the highest performance, demonstrating strong predictive accuracy and robustness across diverse property types.  
+- The model effectively captured non-linear relationships and trends between property characteristics and assessed values.
 
 ---
 
@@ -45,9 +45,9 @@ The model provides a **data-driven fair, consistent, and transparent framework**
 - Provides a foundation for future integration into municipal assessment or decision-support systems.
 
 ---
-# Automated Property Valuation Model (AVM)
+# Automated Property Valuation Model
 
-This project predicts the assessed market value of properties using supervised machine learning.
+This project predicts the assessed market value of properties using supervised machine learning to make fair market value predictions for residential properties.
 
 ### Repository Structure
 - DataUtils - Handle data loading, pre-processing , outlier detection, feature type detection and ETL pipeline
