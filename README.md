@@ -3,15 +3,15 @@ __Opportunity No. 44161__
 # Automated Property Valuation Model 
 
 ### Overview
-An **Automated Valuation Model (AVM)** was developed using **supervised machine learning** to predict the **assessed market value of residential and commercial properties**.  
-The model provides a **data-driven, consistent, and transparent framework** for estimating property values based on a combination of physical, locational, and categorical features.
+An **Automated property Valuation Model (AVM)** was developed using **supervised machine learning** to predict the **assessed market value of residential properties** based on historical data.  
+The model provides a **data-driven fair, consistent, and transparent framework** for estimating property values based on a combination of physical, locational, and historical categorical features.
 
 ---
 
 ### Objectives
 - To automate the property valuation process using statistical and machine learning methods.  
-- To improve the **accuracy**, **efficiency**, and **fairness** of property assessments.  
-- To provide an adaptable modeling pipeline for use by analysts, municipalities, and research teams.
+- To improve the **accuracy**, **efficiency**, and **fairness** of property assessments via interpretable tree-based model usage.  
+- To provide an adaptable reproducible modeling pipeline for use by analysts, municipalities, and research teams.
 
 ---
 
