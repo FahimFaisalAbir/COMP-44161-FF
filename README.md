@@ -66,13 +66,13 @@ This project predicts the assessed market value of properties using supervised m
 
 ## Model Comparison Results
 
-| Model | R² | RMSE | Relative to best |
+| Model | R² | RMSE | Relative to baseline | Relative to Best
 |-------|----|------|--------------|
-| base R LM model	| 0.003| 0 |
-| OLS LM model | 0.137 | 3929 | 14 |
-| Linear Regression | 0.783 | 22958 | 83.8 |
-| Random Forest | 0.935 | 27394.84 | 100 |
-| XGBoost | 0.934 | 27375.93 | 99|
+| base R LM model	| 0.0034 | 2767000| 0 % | 3.21 % |
+| OLS LM model | 0.137 | 3929 | 356.6 % | 14.66 %
+| Linear Regression | 0.784 | 22958 | 2,513 % | 83.86 %
+| Random Forest | 0.935 | 27394.84 | 2,948 % | 97.83 % 
+| XGBoost | 0.934 | 27375.93 | 3,016 % | 100 % 
 
 The **XGBoost model** achieved the highest accuracy, effectively capturing complex relationships between property features and assessed value.
 
