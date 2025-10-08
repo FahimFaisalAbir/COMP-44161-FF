@@ -51,7 +51,7 @@ The model provides a **data-driven, consistent, and transparent framework** for 
 
 You will need to install several packages to run the existing code
 
-# 🏠 Automated Property Valuation Model (AVM)
+# Automated Property Valuation Model (AVM)
 
 This project predicts the assessed market value of properties using supervised machine learning.
 
