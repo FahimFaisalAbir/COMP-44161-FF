@@ -47,3 +47,10 @@ The model provides a **data-driven, consistent, and transparent framework** for 
 ---
 
 ### Repository Structure
+## Environment
+
+You will need to install several packages to run the existing code
+
+```python
+pip install pandas numpy scikit-learn matplotlib xgboost lightgbm pmdarima prophet 
+```
