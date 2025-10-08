@@ -78,5 +78,5 @@ The **XGBoost model** achieved the highest accuracy, effectively capturing compl
 
 
 ```python
-pip install pandas numpy scipy matplotlib seaborn scikit-learn matplotlib xgboost joblib typing-extensions notebook ipython tqdm
+pip install pandas numpy scipy matplotlib seaborn scikit-learn matplotlib xgboost joblib typing-extensions notebook ipython tqdm statsmodels
 
