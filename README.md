@@ -79,8 +79,8 @@ pip install pandas numpy scipy matplotlib seaborn scikit-learn matplotlib xgboos
 | Linear Regression | 0.784 | 22958 | 2,513 % | 83.86 %|
 | Decision Tree Regression | 0.792 | 61192 | 2,541 % | 84.76 %|
 | Neural Network Regression | 0.848 | 47734 | 2,727 % | 90.73 %|
-| Random Forest | 0.935 | 27394.84 | 2,948 % | 97.83 % |
-| XGBoost | 0.934 | 27375.93 | 3,016 % | 100 % |
+| Random Forest Regression| 0.935 | 27394.84 | 2,948 % | 97.83 % |
+| XGBoost Regression | 0.934 | 27375.93 | 3,016 % | 100 % |
 
 The **XGBoost model** achieved the highest accuracy, effectively capturing complex relationships between property features and assessed value.
 
