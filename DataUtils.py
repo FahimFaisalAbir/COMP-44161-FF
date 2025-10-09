@@ -12,7 +12,6 @@ import matplotlib.pyplot as plt
 from collections import Counter, defaultdict
 from itertools import islice
 import pandas as pd
-from Utils import categorical_columns,categorical_columns_summary
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.preprocessing import StandardScaler
@@ -37,6 +36,35 @@ from typing import Tuple, List, Dict, Any, Optional
 
 
 
+
+# Identify categorical columns
+def categorical_columns(df, describe=True):
+    categorical_cols = [col for col in df.columns if df[col].dtype in ['object', 'category', 'bool']]
+    print(f"Categorical columns: {categorical_cols}")
+    if(describe==True):
+        # Describe all columns, including categorical
+        
+        print("\nDescriptive statistics for all columns:")
+        print(df.describe(include='all'))
+
+def categorical_columns_summary(df):
+    # Select only object or categorical dtype columns
+    cat_cols = df.select_dtypes(include=['object','category']).columns
+    
+    for col in cat_cols:
+        if col in ['ResidencePostalCode']:
+            pass
+        else:
+            print("==============================================Column name: ",col,"==================================================================")
+            # Absolute counts
+            unique_values=df[col].nunique()
+            counts = df[col].value_counts()
+            
+            # Relative frequencies (proportions)
+            props =df[col].value_counts(normalize=True)
+            print("---------Unique values-------",unique_values)
+            print("---------Counts---------",counts)
+            print("-------Proportion-------",props)
 def load_data(file: str) -> pd.DataFrame:
     """
     Load Data
