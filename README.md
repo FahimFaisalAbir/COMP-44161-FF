@@ -51,7 +51,7 @@ This project predicts the assessed market value of properties using supervised m
 ### Repository Structure
 - **DataUtils** - Handle data loading, pre-processing , outlier detection, feature type detection and ETL pipeline
 - **Ensemble Model** - Ensemble of tree based models
-- **PropertyEvalModeling V3.ipynb** - Perform exploratory data analysis, pre-processing and train suprevised models for property assesment, justification of modelling approach.
+- **PropertyEvalModeling V3.ipynb** - Perform exploratory data analysis, pre-processing and train supervised models for property assessment, justification of modelling approach.
 - **plots folder** - Plots - tree, feature importance
 - **Reports** - Non technical Summary, Technical Report
 
