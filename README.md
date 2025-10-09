@@ -82,5 +82,10 @@ pip install pandas numpy scipy matplotlib seaborn scikit-learn matplotlib xgboos
 | XGBoost Regression | 0.935 | 34,454 | 3,016 % | 99.93 % |
 | Random Forest Regression| 0.935 | 34,285 | 2,948 % | 100 % |
 
-The **XGBoost model** achieved the highest accuracy, effectively capturing complex relationships between property features and assessed value.
+The **XGBoost and Random Forest model** achieved the highest accuracy, effectively capturing complex relationships between property features and assessed value.
+
+## Dataset
+
+For this exercise, we used data from the City of [Winnipeg's Open Data Portal]([https://pages.github.com](https://data.winnipeg.ca/Assessment-Taxation-Corporate/Assessment-Parcels/d4mq-wa44)).
+(https://data.winnipeg.ca/Assessment-Taxation-Corporate/Assessment-Parcels/d4mq-wa44/about_data).
 
