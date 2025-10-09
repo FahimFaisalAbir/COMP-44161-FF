@@ -6,8 +6,6 @@ __Opportunity No. 44161__
 An **Automated property Valuation Model (AVM)** was developed using **supervised machine learning** on property characteristic and historical assessment dataset to predict the **assessed market value of residential properties**.  
 The model provides a **data-driven fair, consistent, and transparent framework** for estimating property values based on a combination of physical, locational, and historical categorical features.
 
----
-
 ### Objectives
 - To automate the property valuation process using statistical and machine learning methods.  
 - To improve the **accuracy**, **efficiency**, and **fairness** of property assessments via interpretable tree-based model usage.  
@@ -28,6 +26,7 @@ The model provides a **data-driven fair, consistent, and transparent framework**
   - Decision Tree Regressor
   - Random Forest Regressor
   - XGBoost Regressor
+  - MLP Regressor (Neural Network)
 - Each model was evaluated using **R²** and **RMSE** metrics with **Grid Search** and **Randomized Search** for hyperparameter optimization to tailor the model for the provided dataset.
 
 ---
@@ -50,24 +49,26 @@ The model provides a **data-driven fair, consistent, and transparent framework**
 This project predicts the assessed market value of properties using supervised machine learning to make fair market value predictions for residential properties.
 
 ### Repository Structure
-- DataUtils - Handle data loading, pre-processing , outlier detection, feature type detection and ETL pipeline
-- Ensemble Model - Ensemble of tree based models
-- PropertyEvalModeling V3.ipynb - Perform exploratory data analysis, pre-processing and train suprevised models for property assesment, justification of modelling approach.
+- **DataUtils** - Handle data loading, pre-processing , outlier detection, feature type detection and ETL pipeline
+- **Ensemble Model** - Ensemble of tree based models
+- **PropertyEvalModeling V3.ipynb** - Perform exploratory data analysis, pre-processing and train suprevised models for property assesment, justification of modelling approach.
+- **plots folder** - Plots - tree, feature importance
+- **Reports** - Non technical Summary, Technical Report
 
 ## Environment
 
 You will need to install several packages to run the existing code
 
+```python
+pip install pandas numpy scipy matplotlib seaborn scikit-learn matplotlib xgboost joblib typing-extensions notebook ipython tqdm statsmodels
 
 
 ---
 
-## 📊 Model Overview
+## Model Overview
 
 ![Feature importance](plot/xgb_feature_importance.png)
 ![Ensemble (Decision tree, Random Forest, XGB average) Feature importance](plot/ensemble_feature_importance.png)
-
----
 
 ## Model Comparison Results
 
@@ -80,8 +81,4 @@ You will need to install several packages to run the existing code
 | XGBoost | 0.934 | 27375.93 | 3,016 % | 100 % |
 
 The **XGBoost model** achieved the highest accuracy, effectively capturing complex relationships between property features and assessed value.
-
-
-```python
-pip install pandas numpy scipy matplotlib seaborn scikit-learn matplotlib xgboost joblib typing-extensions notebook ipython tqdm statsmodels
 
