@@ -86,5 +86,5 @@ The **XGBoost and Random Forest model** achieved the highest accuracy, effective
 
 ## Dataset
 
-For this exercise, we used data from the City of [Winnipeg's Open Data Portal](https://data.winnipeg.ca/Assessment-Taxation-Corporate/Assessment-Parcels/d4mq-wa44)
+For this exercise, we used data from the City of Winnipeg's Open Data Portal - [https://data.winnipeg.ca/Assessment-Taxation-Corporate/Assessment-Parcels/d4mq-wa44](https://data.winnipeg.ca/Assessment-Taxation-Corporate/Assessment-Parcels/d4mq-wa44)
 
